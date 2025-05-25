@@ -29,6 +29,8 @@ img {
     border-bottom: 1px solid #E7E9FC;
     display: flex;
     justify-content: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .header .container {
@@ -47,8 +49,6 @@ img {
 .menu {
     display: flex;
     gap: 40px;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 
 .logo {
@@ -115,7 +115,7 @@ img {
 
 .hero .container {
     background-color: #2e2f42;
-    padding: 188px;
+    padding: 188px 0;
     text-align: center;
 }
 
@@ -144,6 +144,10 @@ img {
         height: 56px;
         border: none;
         border-radius: 4px;
+        display: block;
+        min-width: 169px;
+        margin-right: auto;
+        margin-left: auto;
 }
 
 .hero-button:hover,
@@ -153,7 +157,20 @@ img {
 
 .vision .container {
     background-color: #FFFFFF;
-    padding: 120px 156px;
+    padding: 120px 0;
+}
+
+.visually-hidden {
+    position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        white-space: nowrap;
+        clip: rect(0 0 0 0);
+        clip-path: inset(100%);
+        overflow: hidden;
 }
 
 .vision-list {
@@ -164,7 +181,7 @@ img {
 }
 
 .vision-item {
-    flex-basis:calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 72px) / 4);
     max-width: 264px;
 }
 
@@ -174,6 +191,7 @@ img {
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2e2f42;
+        margin-bottom: 8px;
 }
 
 .vision-text {
@@ -186,7 +204,7 @@ img {
 
 .team .container {
     background-color: #f4f4fd;
-    padding: 120px 156px;
+    padding: 120px 0;
 }
 
 .team-header {
@@ -216,7 +234,7 @@ img {
 }
 
 .team-section .container {
-    padding: 32px 16px;
+    padding: 32px 0;
 }
 
 .team-title {
@@ -241,7 +259,10 @@ img {
 
 .portfolio .container {
     background-color: #FFFFFF;
-    padding: 120px 156px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    padding-right: 156px;
+    padding-left: 156px;
 }
 
 .portfolio-header {
@@ -265,7 +286,7 @@ img {
 
 .portfolio-section {
     background-color: #FFFFFF;
-    flex-basis: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 48px) / 4);
     max-width: 360px;
 }
 
@@ -293,9 +314,15 @@ img {
         color: #434455;
 }
 
-.footer .container { 
+.footer {
     background-color: #2e2f42;
-    padding: 100px 156px;
+}
+
+.footer .container { 
+    padding: 100px 0;
+    width: 1158px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .footer-logo {
@@ -306,6 +333,8 @@ img {
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4d5ae5;
+        display: inline-block;
+        margin-bottom: 16px;
 }
 
 .footer-logo .accent {
@@ -325,5 +354,4 @@ img {
         letter-spacing: 0.02em;
         color: #f4f4fd;
         max-width: 264px;
-        margin-top: 16px;
 }
