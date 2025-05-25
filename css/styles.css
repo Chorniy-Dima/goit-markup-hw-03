@@ -29,8 +29,6 @@ img {
     border-bottom: 1px solid #E7E9FC;
     display: flex;
     justify-content: center;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 
 .header .container {
@@ -49,6 +47,8 @@ img {
 .menu {
     display: flex;
     gap: 40px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .logo {
