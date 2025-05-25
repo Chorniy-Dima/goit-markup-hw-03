@@ -11,11 +11,17 @@ a {
 
 h1, h2, h3, h4, h5, h6, p {
     margin: 0;
+    padding: 0;
 }
 
 ul {
     list-style-type: none;
     margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
 }
 
 .header {
@@ -25,7 +31,7 @@ ul {
 
 .header .container {
     display: flex;
-    padding: 14px 156px;
+    padding: 24px 156px;
 }
 
 .navigation {
@@ -139,9 +145,14 @@ ul {
 
 .vision {
     background-color: #FFFFFF;
+    padding: 120px 156px;
+}
+
+.vision-list {
     display: flex;
-    padding: 0 156px;
     flex-direction: row;
+    gap: 24px;
+    justify-content: center;
 }
 
 .vision-item {
@@ -167,10 +178,7 @@ ul {
 
 .team {
     background-color: #f4f4fd;
-}
-
-.team-section {
-    background-color: #FFFFFF;
+    padding: 120px 156px;
 }
 
 .team-header {
@@ -181,7 +189,24 @@ ul {
         text-align: center;
         color: #2e2f42;
         text-transform: capitalize;
+        margin-bottom: 72px;
 }
+
+.team-list {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    justify-content: center;
+}
+
+.team-section {
+    background-color: #FFFFFF;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    width:calc((100% - 72px) / 4);
+    max-width: 264px;
+}
+
 .team-title {
         font-weight: 500;
         font-size: 20px;
