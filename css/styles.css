@@ -27,12 +27,14 @@ img {
 .header {
     background-color: #FFFFFF;
     border-bottom: 1px solid #E7E9FC;
-    width: 1158px;
+    display: flex;
+    justify-content: center;
 }
 
 .header .container {
     display: flex;
-    padding: 24px 156px;
+    padding: 24px 15px;
+    width: 1158px;
 }
 
 .navigation {
@@ -82,6 +84,7 @@ img {
 .address {
     font-style: normal;
     margin-left: auto;
+    margin-right: 0;
 }
 
 .address-list {
