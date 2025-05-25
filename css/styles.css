@@ -29,13 +29,13 @@ img {
     border-bottom: 1px solid #E7E9FC;
     display: flex;
     justify-content: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .header .container {
     display: flex;
-    padding-top: 24px;
     padding-right: 15px;
-    padding-bottom: 24px;
     padding-left: 15px;
     margin: 0 auto;
     width: 1158px;
