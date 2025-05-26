@@ -24,6 +24,12 @@ img {
     display: block;
 }
 
+.container {
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto; 
+}
+
 .header {
     background-color: #FFFFFF;
     border-bottom: 1px solid #E7E9FC;
@@ -120,9 +126,6 @@ img {
 }
 
 .hero .container {
-    width: 1158px;
-    margin-right: auto;
-    margin-left: auto;
     text-align: center;
 }
 
@@ -167,12 +170,6 @@ img {
     padding: 120px 0;
 }
 
-.vision .container {
-    width: 1158px;
-    margin-right: auto;
-    margin-left: auto;
-}
-
 .visually-hidden {
     position: absolute;
         width: 1px;
@@ -195,7 +192,6 @@ img {
 
 .vision-item {
     width: calc((100% - 3 * 24px) / 4);
-    max-width: 264px;
 }
 
 .vision-title {
@@ -220,12 +216,6 @@ img {
     background-color: #f4f4fd;
 }
 
-.team .container {
-    width: 1158px;
-    margin-right: auto;
-    margin-left: auto;
-}
-
 .team-header {
         font-weight: 700;
         font-size: 36px;
@@ -248,7 +238,6 @@ img {
     background-color: #FFFFFF;
     border-radius: 0 0 4px 4px;
     width: calc((100% - 72px) / 4);
-    max-width: 264px;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
@@ -282,12 +271,6 @@ img {
         padding-bottom: 120px;
 }
 
-.portfolio .container {
-    width: 1158px;
-    margin-right: auto;
-    margin-left: auto;
-}
-
 .portfolio-header {
         font-weight: 700;
         font-size: 36px;
@@ -310,7 +293,6 @@ img {
 .portfolio-section {
     background-color: #FFFFFF;
     width: calc((100% - 48px) / 3);
-    max-width: 360px;
 }
 
 .portfolio-box {
@@ -340,12 +322,6 @@ img {
 .footer {
     background-color: #2e2f42;
     padding: 100px 0;
-}
-
-.footer .container { 
-    width: 1158px;
-    margin-right: auto;
-    margin-left: auto;
 }
 
 .footer-logo {
