@@ -113,9 +113,15 @@ img {
         color: #404bbf;
 }
 
-.hero .container {
+.hero {
     background-color: #2e2f42;
     padding: 188px 0;
+}
+
+.hero .container {
+    width: 1158px;
+    margin-right: auto;
+    margin-left: auto;
     text-align: center;
 }
 
@@ -155,9 +161,15 @@ img {
     background-color: #404BBF
 }
 
-.vision .container {
+.vision {
     background-color: #FFFFFF;
     padding: 120px 0;
+}
+
+.vision .container {
+    width: 1158px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .visually-hidden {
@@ -181,7 +193,7 @@ img {
 }
 
 .vision-item {
-    flex-basis: calc((100% - 72px) / 4);
+    width: calc((100% - 72px) / 4);
     max-width: 264px;
 }
 
@@ -204,10 +216,13 @@ img {
 
 .team {
     padding: 120px 0;
+    background-color: #f4f4fd;
 }
 
 .team .container {
-    background-color: #f4f4fd;
+    width: 1158px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .team-header {
@@ -231,12 +246,12 @@ img {
 .team-section {
     background-color: #FFFFFF;
     border-radius: 0 0 4px 4px;
-    flex-basis: calc((100% - 72px) / 4);
+    width: calc((100% - 72px) / 4);
     max-width: 264px;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
-.team-section .container {
+.team-box {
     padding: 32px 0;
 }
 
@@ -293,11 +308,11 @@ img {
 
 .portfolio-section {
     background-color: #FFFFFF;
-    flex-basis: calc((100% - 48px) / 3);
+    width: calc((100% - 48px) / 3);
     max-width: 360px;
 }
 
-.portfolio-section .container {
+.portfolio-box {
     padding: 32px 16px;
     border-right: 1px solid #e7e9fc;
     border-bottom: 1px solid #e7e9fc;
